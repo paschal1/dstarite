@@ -30,9 +30,9 @@
 
   <!-- =======================================================
   * Template Name: D-Starite - v4.3.0
-  * Template URL: https://bootstrapmade.com/D-Starite-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Template URL: https://dstarite.com/D-Starite-tech-business-template/
+  * Author: dstarite.com
+  * License: https://dstarite.com/license/
   ======================================================== -->
 </head>
 
@@ -710,7 +710,7 @@
 
         <div class="row mt-5 justify-content-center">
           <div class="col-lg-10">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/php-email-form.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -730,7 +730,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><input type="submit" name="sendFlag" value="Send Message"></div>
             </form>
           </div>
 
